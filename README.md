@@ -2,6 +2,9 @@
 This is an introduction to HTML exercise. "Dog Photo App"
 
 ## This is a project inspired by the FreeCodeCamp challenge [Link to site](https://www.freecatphotoapp.com "CatPhotoApp")
+---
+## TECHNOLOGIES USED:
+* HTML
 
 ---
 ## WD16-KodeGoBatch-CONTRIBUTORS NAMES:
