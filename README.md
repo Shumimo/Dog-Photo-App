@@ -5,7 +5,7 @@ This is an introduction to HTML exercise. "Dog Photo App"
 
 ---
 ## WD16-KodeGoBatch-CONTRIBUTORS NAMES:
-*Group1
-*Group2
-*Group3
-*Group4
+* Group1
+* Group2
+* Group3
+* Group4
