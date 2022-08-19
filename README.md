@@ -4,7 +4,7 @@ This is an introduction to HTML exercise. "Dog Photo App"
 ## This is a project inspired by the FreeCodeCamp challenge [Link to site](https://www.freecatphotoapp.com "CatPhotoApp")
 ---
 ## Technologies Used:
-* HTML
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ---
 ## WD16-KodeGoBatch-CONTRIBUTORS NAMES:
