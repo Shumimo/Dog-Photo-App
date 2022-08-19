@@ -1,7 +1,7 @@
 # Dog-Photo-App
 This is an introduction to HTML exercise. "Dog Photo App"
 
-## This is a project inspired by the FreeCodeCamp challenge [](https://www.freecatphotoapp.com "CatPhotoApp")
+## This is a project inspired by the FreeCodeCamp challenge [Link to site](https://www.freecatphotoapp.com "CatPhotoApp")
 
 ---
 ## WD16-KodeGoBatch-CONTRIBUTORS NAMES:
