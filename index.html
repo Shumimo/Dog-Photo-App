@@ -7,32 +7,107 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>INTRODUCTION TO HTML</title>
-</head>
-
-<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <style>
-      body {
-        text-align: center;
+    .navbar {
+      padding-left: 15%;
+      padding-right: 10%;
+      font-weight: 700;
+      /* background-color: #FDEEDC !important; */
+      text-align: center !important;
+    }
+
+    header {
+      background-color: #FDEEDC;
+    }
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+    #col1 {
+      padding-top: 20%;
+    }
+
+    #col2 {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .col-xs {
+        border: 5px solid;
+        border-radius: 100%;
+        background-color: white;
+        margin-top: 15%;
       }
-      li {
-        list-style-position: inside;
+
+      .img-fluid {
+        height: 150px;
+        width: 200px;
       }
-      img {
-        width: 400px;
-        height: 600px;
-      }
+    }
+  
   </style>
-  <h1>Shiba Photo App</h1>
+</head>
+<body>
   <main>
     <!-- Section 1 -->
-    <section>
-      <h2>Shiba Highlight</h2>
-      <!--TODO: Add link to dog photos Step6: Indent P element -->
-      <p>Be a dog foster parent <a href="https://paws.org.ph/dogs/" target="_blank">Go to Paws PH</a></p>
-      <a href="https://www.pexels.com/search/dog/"><img src="https://images.pexels.com/photos/4588037/pexels-photo-4588037.jpeg" alt="This is doggo" /></a>
-    </section>
+      <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DOG PHOTO APP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Partners
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://paws.org.ph/dogs/">Paws PH</a></li>
+                  <li><a class="dropdown-item" href="https://www.philanimalrescue.org/">Dog Rescue PH</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/mbypras/">Mbypras</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      <!--Content-->
+      <header class="header">
+      <div class="container-fluid">
+        <div class="row" id="col1">
+          <div class="col-lg-6 col-md-12 col-xs-1 text-center mt-5 gy-5">
+            <h2>"True friendship is the love of your furry bestfriend"</h2>
+            Be a dog foster parent <a href="https://paws.org.ph/dogs/" target="_blank">Go to Paws PH</a>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-1" id="col2">
+            <div class="col-xs">
+              <a href="https://www.pexels.com/search/dog/"><img src="dog-photo-withApp5-small.png" class="img-fluid" alt="This is doggo" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-     <!-- Section 2 -->
+     <!-- Section 2
     <section>
       <h2>Shiba Lists</h2>
       <h3>Things Shibas love</h3>
@@ -54,8 +129,9 @@
   <figure><img src="https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="This is a cat" />
     <figcaption>Shibas <strong>hate</strong> cats</figcaption>
   </figure>
-    </section>
-    <!-- Section 3 -->
+    </section> -->
+    
+    <!-- Section 3
   <section>
       <h2>Dog Form</h2>
       <form action="https://shumimo.github.io/Thank-You-Page/">
@@ -73,11 +149,13 @@
       <input type="text" name="dogphotourl" placeholder="Dog Photo URL" required>
       <button type="submit">Submit</button>
       </form>
-  </section>
+  </section> -->
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
+<!-- Comment 
 <footer>
   <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
-</footer>
+</footer> -->
 </html>
